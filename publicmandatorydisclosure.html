@@ -1,8 +1,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>University Website Design - Easy Tutorials</title>
+<title>Public Mandatory Disclosure</title>
 <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
@@ -40,7 +41,23 @@
 <!------- about us content -------->
     
 <section>
-    <embed src="images/mandatorydisclosure.pdf#toolbar=0" height="100%" width="100%" >
+  <div id="pdfContainer" style="position: relative; height: 100%; width: 100%;" oncontextmenu="return false;">
+    <embed 
+        src="images/mandatorydisclosure.pdf#toolbar=0&" 
+        type="application/pdf" 
+        height="100%" 
+        width="100%" 
+        style="border: none;">
+        <div 
+            id="overlay" 
+            style="position:absolute; top: 0; left: 0; width: 99%; height: 99%; background: transparent;" 
+            oncontextmenu="return false;">
+        </div>
+  </div>
+
+        
+        
+
 </section>
     
 <!-------- footer ---------->
