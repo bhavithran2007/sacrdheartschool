@@ -1,0 +1,137 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">School's PortFolio</a>
+                        <ul>
+                            <li><a href="principaldesk.html">Principals Desk</a></li>
+                            <li><a href="visionmission.html">Vision & Mission</a></li>
+                            <li><a href="infrastructure.html">Infrastucture</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="faculty.html">Our Faculty</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="publicmandatorydisclosure.html">Public Mandatory Disclosure</a></li>
+                    
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Contact Us</h1>
+    </section>
+    
+    
+<!------- Contact Us ------->
+
+    
+    <section class="location">
+        <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:720px;height:445px;"><div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sacred+heart+school+mahtur&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="from-embedmap-code" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a><style>#g-mapdisplay .text-marker{ color: black;}.map-generator{max-width: 100%; max-height: 100%; background: none;}</style></div>
+            
+    </section>
+    
+    <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Near Vasan Industries</h5>
+                            <p>Mathur,Pudukkottai</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+91 96881 94370</h5>
+                            <p>Monday to Saturday 10 Am to 4 Pm</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>sacredheartmathur@gmail.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="d533e642-57ac-4ca9-a4a5-7ec7dd58665c">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form> 
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+<footer class="footer2">
+    <div class="container2">
+     <div class="row2">
+       <div class="footer-col2">
+         <h4>Pages</h4>
+         <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="gallery.html">Gallery</a></li>
+           <li><a href="infrastructure.html">Infrastructure</a></li>
+           <li><a href="faculty.html">Our Faculties</a></li>
+         </ul>
+       </div>
+       <div class="footer-col2">
+         <h4>get help</h4>
+         <ul>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="admission.html">Admission</a></li>
+           <li><a href="about.html">About Us</a></li>
+           
+           
+       </div>
+      
+       
+       
+       
+     </div>
+     
+     <a href="https://www.quantumard.com" style="color: aqua; margin-left: 70%; " target="_blank" class="link">Designed & Developed By Quantumard</a>
+    </div>
+    
+ </footer>   
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

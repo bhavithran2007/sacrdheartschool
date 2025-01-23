@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">  
+            <i class="fa fa-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">School's PortFolio</a>
+                    <ul>
+                        <li><a href="principaldesk.html">Principals Desk</a></li>
+                        <li><a href="visionmission.html">Vision & Mission</a></li>
+                        <li><a href="infrastructure.html">Infrastucture</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="faculty.html">Our Faculty</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="admission.html">Admission</a></li>
+                <li><a href="publicmandatorydisclosure.html">Public Mandatory Disclosure</a></li>
+                
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>   
+            <h1>Public Mandatory Disclosure</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section>
+    <embed src="images/mandatorydisclosure.pdf#toolbar=0" height="100%" width="100%" >
+</section>
+    
+<!-------- footer ---------->
+
+<footer class="footer2">
+  <div class="container2">
+   <div class="row2">
+     <div class="footer-col2">
+       <h4>Pages</h4>
+       <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+         <li><a href="infrastructure.html">Infrastructure</a></li>
+         <li><a href="faculty.html">Our Faculties</a></li>
+       </ul>
+     </div>
+     <div class="footer-col2">
+       <h4>get help</h4>
+       <ul>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="admission.html">Admission</a></li>
+         <li><a href="about.html">About Us</a></li>
+         
+         
+     </div>
+    
+     
+     
+     
+   </div>
+   
+   <a href="https://www.quantumard.com" style="color: aqua; margin-left: 70%; " target="_blank" class="link">Designed & Developed By Quantumard</a>
+  </div>
+  
+</footer>   
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
